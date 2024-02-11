@@ -32,7 +32,6 @@ app.get('/api/departments', (req, res) => {
       return;
     }
     res.json({
-      message: 'success',
       data: result
     });
   });
@@ -48,7 +47,6 @@ app.get('/api/roles', (req, res) => {
         return;
       }
       res.json({
-        message: 'success',
         data: result
       });
     });
@@ -64,7 +62,6 @@ app.get('/api/employees', (req, res) => {
         return;
       }
       res.json({
-        message: 'success',
         data: result
       });
     });
@@ -81,7 +78,6 @@ app.get('/api/employees', (req, res) => {
         return;
       }
       res.json({
-        message: 'success',
         data: body
       });
     });
@@ -98,7 +94,6 @@ app.get('/api/employees', (req, res) => {
         return;
       }
       res.json({
-        message: 'success',
         data: body
       });
     });
@@ -115,7 +110,6 @@ app.get('/api/employees', (req, res) => {
         return;
       }
       res.json({
-        message: 'success',
         data: body
       });
     });
